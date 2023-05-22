@@ -5,18 +5,98 @@
 </head>
 <body>
    <!-- heading -->
-   <h1>heading one </h1>
-   <h2>heading two</h2>
+   <h1>first code</h1>
+   <h2>heading</h2>
    <!--paragraph-->
-   <p>uvxuw  hello...</p>
+   <p>hello</p>
+
+<hr>
+
    <!--table-->
-   <thead>
-   	<tr>first name</tr>
-   	<tr>second name</tr>
-   	<!--image-->
-   </thead>
-   
-   <img src="https://en.wikipedia.org/wiki/Uhuru_Kenyatta#/media/File:Uhuru_Kenyatta.jpg" alt="">
+   <table>
+      <thead>
+         <tr>
+         <th>firstname</th>
+            <th>age</th>
+            <th>email</th>
+         </tr>
+
+      </thead>
+      <tbody>
+         <tr>
+            <td>brian</td>
+            <td>120</td>
+            <td>brian@something.com</td>
+         </tr>
+       
+
+      </tbody>
+   </table>
+
+<hr>
+
+   <!--list-->
+   <list>
+      <ul>
+         <li>maembe</li>
+         <li>peace</li>
+         <li>something</li>
+      </ul>
+        <ol>
+        
+            <li>maembe</li>
+            <li>peace</li>
+            <li>something</li>
+         </ol>
+
+   </list>
+
+<br>
+<hr>
+
+   <!--forms-->
+   <form action="process.php"  method="post">
+      <div>
+         <label for="first name">first name</label>
+         <input type="text">
+      </div>
+      <br>
+      <div>
+         <label for="last name">last name</label>
+         <input type="text">
+         </div>
+         <br>
+         <div>
+            <label for="email">email</label>
+            <input type="email"  name="email">
+         </div>
+         <br>
+         <div>
+            <label for="gender">gender</label>
+            <select name="gender">
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">other</option>
+         </div>
+         <br>
+         <div>
+            <label for="s">age</label>
+            <input type="number">
+         </div>
+         <br>
+         <div>
+             <label for="">birthday:</label>
+             <input type="date">
+         </div>
+   </form>
+
+   <!--button-->
+   <button>click me</button>
+<br>
+   <!--img-->
+   <a href="bird.jpg">
+   <img src="bird.jpg" alt="" width="200px">
+</a>
 
 </body>
 </html>
